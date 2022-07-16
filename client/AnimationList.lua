@@ -2805,6 +2805,13 @@ DP.Emotes = {
         EmoteMoving = true,
         EmoteDuration = 5000
     } },
+
+-- CUSTOM EMOTES
+    ["pockets"] = {"bzzz@animations@hands", "bz_hands", "Hands in pockets", AnimationOptions = {
+        EmoteMoving = false, -- or true if you want to walk
+        EmoteLoop = true,
+    }},
+
 }
 
 
