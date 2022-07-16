@@ -2811,6 +2811,254 @@ DP.Emotes = {
         EmoteMoving = false, -- or true if you want to walk
         EmoteLoop = true,
     }},
+	["cop5"] = {"amb@code_human_police_investigate@base", "base", "Cop 5", AnimationOptions =
+	{
+		EmoteMoving = true,
+		EmoteLoop = true
+	}},
+	["driverelax"] = {"anim@veh@lowrider@std@ds@arm@base", "sit_low_lowdoor", "Drive Relax", AnimationOptions =
+	{
+		EmoteMoving = true,
+		EmoteLoop = true,
+	}},
+	["driverelax2"] = {"anim@veh@lowrider@std@ds@arm@base", "sit_high_lowdoor", "Drive Relax 2", AnimationOptions =
+	{
+		EmoteLoop = true,
+		EmoteMoving = true,
+	}},
+	["driverelax3"] = {"anim@veh@lowrider@std@ds@arm@base", "sit_lowdoor", "Drive Relax 3", AnimationOptions =
+	{
+		EmoteLoop = true,
+		EmoteMoving = true,
+	}},
+	["driverelax4"] = {"anim@amb@code_human_in_car_idles@arm@generic@ds@base", "idle", "Drive Relax SUV", AnimationOptions =
+	{
+		EmoteLoop = true,
+		EmoteMoving = true,
+	}},
+	-- maybe countryidle_f, genericbase
+	["passout6"] = {"missfinale_c1@", "lying_dead_player0", "Passout 6", AnimationOptions =
+	{
+		EmoteLoop = true,
+	}},
+	["frz"] = {"swat", "freeze", "SWAT Freeze", AnimationOptions =
+	{
+		EmoteMoving = true,
+		EmoteLoop = false,
+	}},
+	["fwd"] = {"swat", "go_fwd", "SWAT Go Forward", AnimationOptions =
+	{
+		EmoteMoving = true,
+	}},
+	["rally"] = {"swat", "rally_point", "SWAT Rally", AnimationOptions =
+	{
+		EmoteMoving = true,
+	}},
+	["understood"] = {"swat", "understood", "SWAT Understood", AnimationOptions =
+	{
+		EmoteMoving = true,
+	}},
+	["medic3"] = {"amb@medic@standing@tendtodead@idle_a", "idle_a", "Medic 3", AnimationOptions =
+	{
+		EmoteLoop = true,
+	}},
+	["nervous4"] = {"amb@world_human_bum_standing@twitchy@base", "base", "Nervous 4", AnimationOptions =
+	{
+		EmoteLoop = true,
+		EmoteMoving = true,
+	}},
+	["kick"] = {"melee@unarmed@streamed_variations", "vehicle_kick_var_a", "Kick"},
+	["cop6"] = {"rcmjosh4", "beckon_a_cop_b", "Cop 6", AnimationOptions =
+	{
+		EmoteLoop = true,
+		EmoteMoving = true,
+	}},
+	["gunaim2"] = {"move_weapon@pistol@copa", "idle", "Gun Aim 2", AnimationOptions =
+	{
+		EmoteLoop = true,
+		EmoteMoving = true,
+	}},
+	["gunaim"] = {"random@arrests", "cop_gunaimed_door_open_idle", "Gun Aim", AnimationOptions =
+	{
+		EmoteLoop = true,
+		EmoteMoving = true,
+	}},
+	["cuffground"] = {"random@homelandsecurity", "idle_cop_ground", "Cuff Ground", AnimationOptions =
+	{
+		EmoteLoop = true,
+	}},
+	["gunaimwound"] = {"weapons@pistol@injured", "fire_med_var2", "Gun Aim Wounded", AnimationOptions =
+	{
+		EmoteLoop = true,
+		EmoteMoving = true,
+	}},
+	["gunaim3"] = {"weapons@pistol@", "wall_block", "Gun Aim 3", AnimationOptions =
+	{
+		EmoteLoop = true,
+		EmoteMoving = true,
+	}},
+	["rifleaim"] = {"weapons@rifle@", "wall_block", "Rifle Aim", AnimationOptions =
+	{
+		EmoteLoop = true,
+		EmoteMoving = true,
+	}},
+	["rifleaim2"] = {"weapons@heavy@rpg", "idle", "Rifle Aim 2", AnimationOptions =
+	{
+		EmoteLoop = true,
+		EmoteMoving = true,
+	}},
+	["riflewater"] = {"weapons@first_person@aim_rng@generic@assault_rifle@shared@core", "wall_block_high", "Rifle Wade Through Water", AnimationOptions =
+	{
+		EmoteLoop = true,
+		EmoteMoving = true,
+	}},
+	["rifleaim3"] = {"weapons@first_person@aim_idle@generic@heavy@grenade_launcher@", "aim_med_loop", "Rifle Aim 3", AnimationOptions =
+	{
+		EmoteLoop = true,
+		EmoteMoving = true,
+	}},
+	["tased"] = {"weapon@w_pi_stungun", "damage", "Tased", AnimationOptions =
+	{
+		EmoteLoop = true,
+		EmoteMoving = true,
+	}},
+	["dustoff"] = {"reaction@shake_it_off@", "dustoff", "Dust off", AnimationOptions =
+	{
+		EmoteMoving = true,
+		EmoteDuration = 2000,
+	}},
+	["screwyou2"] = {"random@shop_robbery_reactions@", "screw_you", "Screw You 2", AnimationOptions =
+	{
+		EmoteMoving = true,
+		EmoteDuration = 1300,
+	}},
+	["wave10"] = {"random@prisoner_lift", "arms_waving", "Wave 10", AnimationOptions =
+	{
+		EmoteLoop = true,
+		EmoteMoving = true,
+	}},
+	["you"] = {"oddjobs@hunter", "point_fwd", "You", AnimationOptions =
+	{
+		EmoteMoving = true,
+		EmoteDuration = 800,
+	}},
+	["doive"] = {"random@security_van", "security_loop_guard", "Doive", AnimationOptions =
+	{
+		EmoteLoop = true,
+	}},
+	["briefing"] = {"anim@miss@low@fin@vagos@", "idle_ped06", "Briefing (Hands behind back)", AnimationOptions =
+	{
+		EmoteLoop = true,
+	}},
+	["spread"] = {"missheistpaletoscore2mcs_2_pt1", "end_loop_m4", "Spread arms and legs (Ground)", AnimationOptions =
+	{
+		EmoteLoop = true,
+	}},
+	["spread2"] = {"missheistpaletoscore2mcs_2_pt1", "end_loop_m1", "Spread arms and legs (Ground) 2", AnimationOptions =
+	{
+		EmoteLoop = true,
+	}},
+	["gunhide"] = {"fin_a_int-3", "player_one_dual-3", "Gun Hide", AnimationOptions =
+	{
+		EmoteLoop = true,
+		EmoteMoving = true,
+	}},
+	["rifleaim4"] = {"weapon@rifle@riflecrouch", "idle", "Rifle Aim 4", AnimationOptions =
+	{
+		EmoteLoop = true,
+		EmoteMoving = true,
+	}},
+	["checkrifle"] = {"special_ped@cletus@idle_a", "cletus_idle_a", "Check Rifle", AnimationOptions =
+	{
+		EmoteLoop = true,
+	}},
+	["maleshower1"] = {"mp_safehouseshower@male@", "male_shower_idle_a", "Male Shower", AnimationOptions =
+	{
+		EmoteLoop = true,
+	}},
+	["maleshower2"] = {"mp_safehouseshower@male@", "male_shower_idle_b", "Male Shower 2", AnimationOptions =
+	{
+		EmoteLoop = true,
+	}},
+	["maleshower3"] = {"mp_safehouseshower@male@", "male_shower_idle_c", "Male Shower 3", AnimationOptions =
+	{
+		EmoteLoop = true,
+	}},
+	["maleshower4"] = {"mp_safehouseshower@male@", "male_shower_idle_d", "Male Shower 4", AnimationOptions =
+	{
+		EmoteLoop = true,
+	}},
+	["femaleshower1"] = {"mp_safehouseshower@female@", "shower_idle_a", "Female Shower", AnimationOptions =
+	{
+		EmoteLoop = true,
+	}},
+	["femaleshower2"] = {"mp_safehouseshower@female@", "shower_idle_b", "Female Shower 2", AnimationOptions =
+	{
+		EmoteLoop = true,
+	}},
+	["rifleaim5"] = {"mp_prison_break", "guard_idle", "Rifle Aim 5", AnimationOptions =
+	{
+		EmoteLoop = true,
+		EmoteMoving = true,
+	}},
+	["rifleaim6"] = {"missbigscore1guard_wait_rifle", "wait_a", "Rifle Aim 6", AnimationOptions =
+	{
+		EmoteLoop = true,
+	}},
+	["rifleaim7"] = {"hs4_nimb_lsa_isd-10", "g_m_m_cartelguards_01^6_dual-10", "Rifle Aim 7", AnimationOptions =
+	{
+		EmoteLoop = true,
+		EmoteMoving = true,
+	}},
+	["checkpistol"] = {"anim@deathmatch_intros@1hmale", "intro_male_1h_d_michael", "Check Pistol", AnimationOptions =
+	{
+		EmoteMoving = true,
+	}},
+	["sniper"] = {"missfbi2", "franklin_sniper_crouch", "Sniper", AnimationOptions =
+	{
+		EmoteLoop = true,
+	}},
+	["sniper2"] = {"missfbi3_sniping", "prone_michael", "Sniper Prone", AnimationOptions =
+	{
+		EmoteLoop = true,
+	}},
+	["rifleaim8"] = {"anim@shooter_stance", "stance_clip", "Rifle Aim 8", AnimationOptions =
+	{
+		EmoteLoop = true,
+	}},
+	["gunaim4"] = {"anim@stance_handgun", "handgun_clip", "Gun Aim 4", AnimationOptions =
+	{
+		EmoteLoop = true,
+		EmoteMoving = true,
+	}},
+	["rifleaim9"] = {"anim@fog_rifle_relaxed", "rifle_relaxed_clip", "Rifle Aim 9", AnimationOptions =
+	{
+		EmoteLoop = true,
+		EmoteMoving = true,
+	}},
+	["riflestack"] = {"anim@stack_pointman", "pointman_clip", "Rifle Stack", AnimationOptions =
+	{
+		EmoteLoop = true,
+		EmoteMoving = true,
+	}},
+	["riflestack2"] = {"anim@stack_two_man", "two_man_clip", "Rifle Stack 2", AnimationOptions =
+	{
+		EmoteLoop = true,
+		EmoteMoving = true,
+	}},
+	["riflestack3"] = {"anim@stack_three_man", "three_man_clip", "Rifle Stack 3", AnimationOptions =
+	{
+		EmoteLoop = true,
+		EmoteMoving = true,
+	}},
+	["riflelean"] = {"anim@highlow_low_lean", "low_lean_clip", "Rifle Lean Low", AnimationOptions =
+	{
+		EmoteLoop = true,
+	}},
+	["riflelean2"] = {"anim@highlow_high_lean", "high_lean_clip", "Rifle Lean High", AnimationOptions =
+	{
+		EmoteLoop = true,
+	}},
 
 }
 
