@@ -4386,4 +4386,134 @@ DP.PropEmotes = {
         EmoteMoving = true,
         EmoteLoop = true,
     } },
+
+    --  CUSTOM EMOTES
+   ["badge"] = {"paper_1_rcm_alt1-9", "player_one_dual-9", "Flash Badge [WIP]", AnimationOptions =
+   {
+		Prop = "prop_fib_badge",
+		PropBone = 28422,
+		PropPlacement = {0.065, 0.029, -0.035, 80.0, -1.90, 75.0},
+		EmoteMoving = true,
+	}},
+	["badgelspd"] = {"paper_1_rcm_alt1-9", "player_one_dual-9", "Flash LSPD Badge", AnimationOptions =
+   {
+		Prop = "prop_lspd_badge",
+		PropBone = 28422,
+		PropPlacement = {0.105, -0.01, -0.048, 80.0, -10.0, 140.0},
+		EmoteMoving = true,
+	}},
+	["badgebcso"] = {"paper_1_rcm_alt1-9", "player_one_dual-9", "Flash BCSO Badge", AnimationOptions =
+   {
+		Prop = "prop_bcso_badge",
+		PropBone = 28422,
+		PropPlacement = {0.105, -0.01, -0.048, 80.0, -10.0, 140.0},
+		EmoteMoving = true,
+	}},
+	["badgedoa"] = {"paper_1_rcm_alt1-9", "player_one_dual-9", "Flash DOA Badge", AnimationOptions =
+   {
+		Prop = "prop_doa_badge",
+		PropBone = 28422,
+		PropPlacement = {0.105, -0.01, -0.048, 80.0, -10.0, 140.0},
+		EmoteMoving = true,
+	}},
+	["badgefib"] = {"paper_1_rcm_alt1-9", "player_one_dual-9", "Flash FIB Badge", AnimationOptions =
+   {
+		Prop = "prop_fibb_badge",
+		PropBone = 28422,
+		PropPlacement = {0.105, -0.01, -0.048, 80.0, -10.0, 140.0},
+		EmoteMoving = true,
+	}},
+	["badgeiaa"] = {"paper_1_rcm_alt1-9", "player_one_dual-9", "Flash IAA Badge", AnimationOptions =
+   {
+		Prop = "prop_iaa_badge",
+		PropBone = 28422,
+		PropPlacement = {0.105, -0.01, -0.048, 80.0, -10.0, 140.0},
+		EmoteMoving = true,
+	}},
+	["badgelsiapd"] = {"paper_1_rcm_alt1-9", "player_one_dual-9", "Flash LSIAPD Badge", AnimationOptions =
+   {
+		Prop = "prop_lsia_badge",
+		PropBone = 28422,
+		PropPlacement = {0.105, -0.01, -0.048, 80.0, -10.0, 140.0},
+		EmoteMoving = true,
+	}},
+	["badgelspp"] = {"paper_1_rcm_alt1-9", "player_one_dual-9", "Flash LSPP Badge", AnimationOptions =
+   {
+		Prop = "prop_lspp_badge",
+		PropBone = 28422,
+		PropPlacement = {0.105, -0.01, -0.048, 80.0, -10.0, 140.0},
+		EmoteMoving = true,
+	}},
+	["badgelssd"] = {"paper_1_rcm_alt1-9", "player_one_dual-9", "Flash LSSD Badge", AnimationOptions =
+   {
+		Prop = "prop_lssd_badge",
+		PropBone = 28422,
+		PropPlacement = {0.105, -0.01, -0.048, 80.0, -10.0, 140.0},
+		EmoteMoving = true,
+	}},
+	["badgepia"] = {"paper_1_rcm_alt1-9", "player_one_dual-9", "Flash PIA Badge", AnimationOptions =
+   {
+		Prop = "prop_pia_badge",
+		PropBone = 28422,
+		PropPlacement = {0.105, -0.01, -0.048, 80.0, -10.0, 140.0},
+		EmoteMoving = true,
+	}},
+	["badgerhpd"] = {"paper_1_rcm_alt1-9", "player_one_dual-9", "Flash RHPD Badge", AnimationOptions =
+   {
+		Prop = "prop_rhpd_badge",
+		PropBone = 28422,
+		PropPlacement = {0.105, -0.01, -0.048, 80.0, -10.0, 140.0},
+		EmoteMoving = true,
+	}},
+	["badgesahp"] = {"paper_1_rcm_alt1-9", "player_one_dual-9", "Flash SAHP Badge", AnimationOptions =
+   {
+		Prop = "prop_sahp_badge",
+		PropBone = 28422,
+		PropPlacement = {0.105, -0.01, -0.048, 80.0, -10.0, 140.0},
+		EmoteMoving = true,
+	}},
+	["badgesasp"] = {"paper_1_rcm_alt1-9", "player_one_dual-9", "Flash SASP Badge", AnimationOptions =
+   {
+		Prop = "prop_sasp_badge",
+		PropBone = 28422,
+		PropPlacement = {0.105, -0.01, -0.048, 80.0, -10.0, 140.0},
+		EmoteMoving = true,
+	}},
+	["badgesaspa"] = {"paper_1_rcm_alt1-9", "player_one_dual-9", "Flash SASPA Badge", AnimationOptions =
+   {
+		Prop = "prop_saspa_badge",
+		PropBone = 28422,
+		PropPlacement = {0.105, -0.01, -0.048, 80.0, -10.0, 140.0},
+		EmoteMoving = true,
+	}},
+	["badgenysp"] = {"paper_1_rcm_alt1-9", "player_one_dual-9", "Flash NYSP Badge", AnimationOptions =
+   {
+		Prop = "prop_nysp_badge",
+		PropBone = 28422,
+		PropPlacement = {0.105, -0.01, -0.048, 80.0, -10.0, 140.0},
+		EmoteMoving = true,
+	}},
+	["texting2"] = {"amb@code_human_wander_texting@male@base", "static", "Texting 2", AnimationOptions =
+	{
+		Prop = "ba_prop_battle_amb_phone",
+		PropBone = 28422,
+		PropPlacement = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0},
+		EmoteLoop = true,
+		EmoteMoving = true,
+	}},
+	["badgedppd"] = {"paper_1_rcm_alt1-9", "player_one_dual-9", "Flash DPPD Badge", AnimationOptions =
+	{
+		Prop = "prop_dppd_badge",
+		PropBone = 28422,
+		PropPlacement = {0.105, -0.01, -0.048, 80.0, -10.0, 140.0},
+		EmoteMoving = true,
+	}},
+	["kitbag"] = {"missprologuemcs_2_walkout_vault", "mcs_2_idle_player2", "Kit bag", AnimationOptions =
+	{
+		Prop = "bkr_prop_duffel_bag_01a",
+		PropBone = 60309,
+		PropPlacement = {0.0, 0.0, -0.2, 0.0, 0.0, 0.0},
+		EmoteMoving = true,
+		EmoteLoop = true,
+	}},
 }
