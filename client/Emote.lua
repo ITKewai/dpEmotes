@@ -214,7 +214,7 @@ function EmoteCommandStart(source, args, raw)
             if IsInAnimation then
                 EmoteCancel()
             else
-                EmoteChatMessage(Config.Languages[lang]['nocancel'])
+                --EmoteChatMessage(Config.Languages[lang]['nocancel'])
             end
             return
         elseif name == "help" then
