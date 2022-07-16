@@ -943,6 +943,97 @@ DP.Dances = {
             EmoteLoop = true,
             EmoteMoving = false,
         } },
+        --[[  ["downward_fortnite"] = {"export@downward_fortnite", "Downward_fortnite", "Downward", AnimationOptions =
+         {
+            EmoteMoving = false,
+            EmoteLoop = true,
+         }},
+         
+         ["pullup"] = {"export@pullup", "pullup", "Pullup", AnimationOptions =
+         {
+            EmoteMoving = false,
+            EmoteLoop = true,
+         }},
+         
+         ["rollie"] = {"export@rollie", "rollie", "Rollie", AnimationOptions =
+         {
+            EmoteMoving = false,
+            EmoteLoop = true,
+         }},
+         
+         ["wanna_see_me"] = {"export@wanna_see_me", "wanna_see_me", "Wanna see me", AnimationOptions =
+         {
+            EmoteMoving = false,
+            EmoteLoop = true,
+         }},
+         
+         ["billybounce"] = {"export@billybounce", "billybounce", "Billy bounce", AnimationOptions =
+         {
+            EmoteMoving = false,
+            EmoteLoop = true,
+         }}, ]]
+         ["crossbounce"] = {"custom@crossbounce", "crossbounce", "Cross bounce", AnimationOptions =
+         {
+            EmoteMoving = false,
+            EmoteLoop = true,
+         }},
+      
+         ["dontstart"] = {"custom@dont_start", "dont_start", "Dont Start", AnimationOptions =
+         {
+            EmoteMoving = false,
+            EmoteLoop = true,
+         }},
+      
+         ["floss"] = {"custom@floss", "floss", "Floss", AnimationOptions =
+         {
+            EmoteMoving = false,
+            EmoteLoop = true,
+         }},
+      
+         --[[["orangejustice"] = {"custom@orangejustice", "orangejustice", "Orange Justice", AnimationOptions =
+         {
+            EmoteMoving = false,
+            EmoteLoop = true,
+         }},]]
+      
+         ["dancemoves"] = {"default@dance@dictionary", "default_dance", "Dance Moves"},
+         ["orangejustice"] = {"orange@justice@directory", "orange_justice", "Orange Justice"},
+      
+         ["renegade"] = {"custom@renegade", "renegade", "Renegade", AnimationOptions =
+         {
+            EmoteMoving = false,
+            EmoteLoop = true,
+         }},
+      
+         ["rickroll"] = {"custom@rickroll", "rickroll", "Rick Roll", AnimationOptions =
+         {
+            EmoteMoving = false,
+            EmoteLoop = true,
+         }},
+      
+         ["savage"] = {"custom@savage", "savage", "Savage", AnimationOptions =
+         {
+            EmoteMoving = false,
+            EmoteLoop = true,
+         }},
+      
+         ["sayso"] = {"custom@sayso", "sayso", "Say So", AnimationOptions =
+         {
+            EmoteMoving = false,
+            EmoteLoop = true,
+         }},
+      
+         ["takel"] = {"custom@take_l", "take_l", "Take the L", AnimationOptions =
+         {
+            EmoteMoving = false,
+            EmoteLoop = true,
+         }},
+      
+         ["slide"] = {"custom@toosie_slide", "toosie_slide", "Tootsie Slide", AnimationOptions =
+         {
+            EmoteMoving = false,
+            EmoteLoop = true,
+         }},
 }
 
 
@@ -3059,6 +3150,11 @@ DP.Emotes = {
 	{
 		EmoteLoop = true,
 	}},
+    ["dab"] = {"dab@dictionary", "dabmotion", "Dab", AnimationOptions =
+    {
+       EmoteMoving = true,
+       EmoteLoop = false,
+    }},
 
 }
 
@@ -4764,4 +4860,13 @@ DP.PropEmotes = {
 		EmoteMoving = true,
 		EmoteLoop = true,
 	}},
+ 
+    ["rover"] = {"missheistdocksprep1hold_cellphone", "static", "Portable Radio (Rover)", AnimationOptions =
+    {
+        Prop = 'prop_cs_walkie_talkie',
+        PropBone = 18905,
+        PropPlacement = {0.12, 0.04, 0.00, -115.0, 1.9, 0.0},
+        EmoteLoop = true,
+        EmoteMoving = true,
+    }},
 }
