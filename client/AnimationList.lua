@@ -2806,7 +2806,7 @@ DP.Emotes = {
         EmoteDuration = 5000
     } },
 
--- CUSTOM EMOTES
+    -- CUSTOM EMOTES
     ["pockets"] = {"bzzz@animations@hands", "bz_hands", "Hands in pockets", AnimationOptions = {
         EmoteMoving = false, -- or true if you want to walk
         EmoteLoop = true,
@@ -4493,19 +4493,19 @@ DP.PropEmotes = {
 		PropPlacement = {0.105, -0.01, -0.048, 80.0, -10.0, 140.0},
 		EmoteMoving = true,
 	}},
+	["badgedppd"] = {"paper_1_rcm_alt1-9", "player_one_dual-9", "Flash DPPD Badge", AnimationOptions =
+	{
+		Prop = "prop_dppd_badge",
+		PropBone = 28422,
+		PropPlacement = {0.105, -0.01, -0.048, 80.0, -10.0, 140.0},
+		EmoteMoving = true,
+	}},
 	["texting2"] = {"amb@code_human_wander_texting@male@base", "static", "Texting 2", AnimationOptions =
 	{
 		Prop = "ba_prop_battle_amb_phone",
 		PropBone = 28422,
 		PropPlacement = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0},
 		EmoteLoop = true,
-		EmoteMoving = true,
-	}},
-	["badgedppd"] = {"paper_1_rcm_alt1-9", "player_one_dual-9", "Flash DPPD Badge", AnimationOptions =
-	{
-		Prop = "prop_dppd_badge",
-		PropBone = 28422,
-		PropPlacement = {0.105, -0.01, -0.048, 80.0, -10.0, 140.0},
 		EmoteMoving = true,
 	}},
 	["kitbag"] = {"missprologuemcs_2_walkout_vault", "mcs_2_idle_player2", "Kit bag", AnimationOptions =
