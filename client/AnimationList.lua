@@ -4028,13 +4028,13 @@ DP.PropEmotes = {
         EmoteLoop = false,
         EmoteMoving = true,
     } },
-    ["idcardh"] = { "paper_1_rcm_alt1-8", "player_one_dual-8", "ID Card 8", AnimationOptions = {
+    --[[["idcardh"] = { "paper_1_rcm_alt1-8", "player_one_dual-8", "ID Card 8", AnimationOptions = {
         Prop = "prop_cop_badge",
         PropBone = 28422,
         PropPlacement = { 0.0800, -0.0120, -0.0600, -90.00, 180.00, 69.99 },
         EmoteLoop = false,
         EmoteMoving = true,
-    } },
+    } },]]
     ["phone"] = { "cellphone@", "cellphone_text_read_base", "SMS", AnimationOptions = {
         Prop = "prop_phone_ing",
         PropBone = 28422,
