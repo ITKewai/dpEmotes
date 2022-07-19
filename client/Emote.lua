@@ -73,7 +73,7 @@ if Config.SqlKeybinding then
     RegisterCommand('emotebinds', function(source, args, raw) EmoteBindsStart(source, args, raw) end)
 end
 RegisterCommand('emotemenu', function(source, args, raw) OpenEmoteMenu() end)
-RegisterCommand('emotes', function(source, args, raw) EmotesOnCommand() end)
+RegisterCommand('emotes', function(source, args, raw) OpenEmoteMenu() end)
 RegisterCommand('walk', function(source, args, raw) WalkCommandStart(source, args, raw) end)
 RegisterCommand('walks', function(source, args, raw) WalksOnCommand() end)
 
