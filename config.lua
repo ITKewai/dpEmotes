@@ -105,7 +105,8 @@ Config.Languages = {
         ['currentlyboundemotes'] = " Currently bound emotes:",
         ['notvalidkey'] = "is not a valid key.",
         ['keybinds'] = "🔢 Keybinds",
-        ['keybindsinfo'] = "Use"
+        ['keybindsinfo'] = "Use",
+        ['poses'] = "📷 Poses"
     },
     ['cs'] = { -- Czech 🇨🇿
         ['emotes'] = 'Animace 🎬',
@@ -154,7 +155,8 @@ Config.Languages = {
         ['currentlyboundemotes'] = "Momentálně nastavené animace:",
         ['notvalidkey'] = "Není platná klávesa.",
         ['keybinds'] = "🔢 Klávesové Zkratky",
-        ['keybindsinfo'] = "Use"
+        ['keybindsinfo'] = "Use",
+        ['poses'] = "📷 Pozice"
     },
     ['fr'] = { -- French 🇫🇷
         ['emotes'] = 'Emotes 🎬',
@@ -202,7 +204,8 @@ Config.Languages = {
         ['currentlyboundemotes'] = " Emotes actuellement liées:",
         ['notvalidkey'] = "n'est pas une clé valide.",
         ['keybinds'] = "🔢 Raccourcis clavier",
-        ['keybindsinfo'] = "Utilise"
+        ['keybindsinfo'] = "Utilise",
+        ['poses'] = "📷 Poses"
     },
     ['de'] = { -- German 🇩🇪
         ['emotes'] = 'Emotes 🎬',
@@ -250,7 +253,8 @@ Config.Languages = {
         ['currentlyboundemotes'] = " Derzeit gebundene Emotes:",
         ['notvalidkey'] = "ist kein gültiger Schlüssel.",
         ['keybinds'] = "🔢 Tastenkombinationen",
-        ['keybindsinfo'] = "verwenden"
+        ['keybindsinfo'] = "verwenden",
+        ['poses'] = "📷 Posen"
     },
     ['sv'] = { -- Swedish 🇸🇪
         ['emotes'] = 'Emotes 🎬',
@@ -299,7 +303,8 @@ Config.Languages = {
         ['currentlyboundemotes'] = " För närvarande bundna emotes:",
         ['notvalidkey'] = "är inte en giltig tangent.",
         ['keybinds'] = "🔢 Keybinds",
-        ['keybindsinfo'] = "Använd"
+        ['keybindsinfo'] = "Använd",
+        ['poses'] = "📷 Poses"
     },
     ['es'] = { -- Spanish 🇪🇸
         ['emotes'] = "Animaciones 🎬",
@@ -347,7 +352,8 @@ Config.Languages = {
         ['currentlyboundemotes'] = " Emotes vinculados actualmente:",
         ['notvalidkey'] = "no es una clave válida.",
         ['keybinds'] = "🔢 Keybinds",
-        ['keybindsinfo'] = "Utilizar"
+        ['keybindsinfo'] = "Utilizar",
+        ['poses'] = "📷 Poses"
     },
     ['nl'] = { -- Dutch 🇳🇱
         ['emotes'] = 'Animaties 🎬',
@@ -396,7 +402,8 @@ Config.Languages = {
         ['currentlyboundemotes'] = " Huidig gebonden animaties:",
         ['notvalidkey'] = "Is geen geldige knop.",
         ['keybinds'] = "🔢 Keybinds",
-        ['keybindsinfo'] = "Gebruik"
+        ['keybindsinfo'] = "Gebruik",
+        ['poses'] = "📷 Poseren"
     },
     ['pt'] = { -- Brazilian Portuguese 🇧🇷
         ['emotes'] = 'Emotes 🎬',
@@ -445,7 +452,8 @@ Config.Languages = {
         ['currentlyboundemotes'] = "Emotes atualmente vinculados: ",
         ['notvalidkey'] = "isto não é uma chave válida",
         ['keybinds'] = "🔢 Keybinds",
-        ['keybindsinfo'] = "Usar"
+        ['keybindsinfo'] = "Usar",
+        ['poses'] = "📷 Posar"
     },
     ['it'] = { -- Italian 🇮🇹
         ['emotes'] = 'Animazioni 🎬',
@@ -494,7 +502,8 @@ Config.Languages = {
         ['currentlyboundemotes'] = " Animazioni correnti:",
         ['notvalidkey'] = "non è una chiave valida.",
         ['keybinds'] = "🔢 Tasti",
-        ['keybindsinfo'] = "Utilizza"
+        ['keybindsinfo'] = "Utilizza",
+        ['poses'] = "📷 Posare"
     },
     ['da'] = { -- Danish 🇩🇰
         ['emotes'] = 'Animationer',
@@ -543,7 +552,8 @@ Config.Languages = {
         ['currentlyboundemotes'] = " Keybind animationer:",
         ['notvalidkey'] = "er ikke en gyldigt nøgle.",
         ['keybinds'] = "🔢 Keybinds",
-        ['keybindsinfo'] = "Brug"
+        ['keybindsinfo'] = "Brug",
+        ['poses'] = "📷 Poses"
     },
     ['fi'] = { -- Finnish 🇫🇮
         ['emotes'] = 'Animaatiot 🎬',
@@ -593,6 +603,7 @@ Config.Languages = {
         ['notvalidkey'] = "Ei ole käytettävä näppäin.",
         ['keybinds'] = "🔢 Pikanäppäimet",
         ['keybindsinfo'] = "Käytä",
+        ['poses'] = "📷 Poseerata"
     },
     ['pl'] = { -- Polish 🇵🇱
         ['emotes'] = 'Animacje 🎬',
@@ -641,6 +652,7 @@ Config.Languages = {
         ['currentlyboundemotes'] = " Aktualnie przypisane animacje:",
         ['notvalidkey'] = "nie jest poprawnym klawiszem.",
         ['keybinds'] = "🔢 Przypisane klawisze",
-        ['keybindsinfo'] = "Użyj"
+        ['keybindsinfo'] = "Użyj",
+        ['poses'] = "📷 Pozy"
     },
 }

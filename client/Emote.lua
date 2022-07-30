@@ -190,6 +190,10 @@ function EmoteMenuStart(args, hard)
         if DP.AnimalEmotes[name] ~= nil then
             if OnEmotePlay(DP.AnimalEmotes[name]) then end
         end
+    elseif etype == "poses" then
+        if DP.Poses[name] ~= nil then
+            if OnEmotePlay(DP.Poses[name]) then end
+        end
     elseif etype == "props" then
         if DP.PropEmotes[name] ~= nil then
             if OnEmotePlay(DP.PropEmotes[name]) then end
@@ -230,6 +234,9 @@ function EmoteCommandStart(source, args, raw)
             return
         elseif DP.AnimalEmotes[name] ~= nil then
             if OnEmotePlay(DP.AnimalEmotes[name]) then end
+            return
+        elseif DP.Poses[name] ~= nil then
+            if OnEmotePlay(DP.Poses[name]) then end
             return
         elseif DP.PropEmotes[name] ~= nil then
             if OnEmotePlay(DP.PropEmotes[name]) then end

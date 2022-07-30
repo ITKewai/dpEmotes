@@ -38,6 +38,7 @@ local FavEmoteTable = {}
 local KeyEmoteTable = {}
 local DanceTable = {}
 local AnimalTable = {}
+local PoseTable = {}
 local PropETable = {}
 local WalkTable = {}
 local FaceTable = {}
@@ -66,10 +67,12 @@ function AddEmoteMenu(menu)
     local submenu = _menuPool:AddSubMenu(menu, Config.Languages[lang]['emotes'], "", "", Menuthing, Menuthing)
     local dancemenu = _menuPool:AddSubMenu(submenu, Config.Languages[lang]['danceemotes'], "", "", Menuthing, Menuthing)
     local animalmenu = _menuPool:AddSubMenu(submenu, Config.Languages[lang]['animalemotes'], "", "", Menuthing, Menuthing)
+    local posemenu = _menuPool:AddSubMenu(submenu, Config.Languages[lang]['poses'], "", "", Menuthing, Menuthing)
     local propmenu = _menuPool:AddSubMenu(submenu, Config.Languages[lang]['propemotes'], "", "", Menuthing, Menuthing)
     table.insert(EmoteTable, Config.Languages[lang]['danceemotes'])
     table.insert(EmoteTable, Config.Languages[lang]['danceemotes'])
     table.insert(EmoteTable, Config.Languages[lang]['animalemotes'])
+    table.insert(EmoteTable, Config.Languages[lang]['poses'])
 
     if Config.SharedEmotesEnabled then
         sharemenu = _menuPool:AddSubMenu(submenu, Config.Languages[lang]['shareemotes'],
@@ -128,6 +131,13 @@ function AddEmoteMenu(menu)
         table.insert(AnimalTable, a)
     end
 
+    for a, b in pairsByKeys(DP.Poses) do
+        x, y, z = table.unpack(b)
+        poseitem = NativeUI.CreateItem(z, "/e (" .. a .. ")")
+        posemenu:AddItem(poseitem)
+        table.insert(PoseTable, a)
+    end
+
     if Config.SharedEmotesEnabled then
         for a, b in pairsByKeys(DP.Shared) do
             x, y, z, otheremotename = table.unpack(b)
@@ -176,6 +186,10 @@ function AddEmoteMenu(menu)
 
     animalmenu.OnItemSelect = function(sender, item, index)
         EmoteMenuStart(AnimalTable[index], "animals")
+    end
+    
+    posemenu.OnItemSelect = function(sender, item, index)
+        EmoteMenuStart(PoseTable[index], "poses")
     end
 
     if Config.SharedEmotesEnabled then

@@ -2988,12 +2988,12 @@ DP.Emotes = {
 		EmoteLoop = true,
 		EmoteMoving = true,
 	}},
-	["rifleaim"] = {"weapons@rifle@", "wall_block", "Rifle Aim", AnimationOptions =
+	["rifleaim"] = {"weapons@rifle@", "wall_block", "Rifle Low Ready", AnimationOptions =
 	{
 		EmoteLoop = true,
 		EmoteMoving = true,
 	}},
-	["rifleaim2"] = {"weapons@heavy@rpg", "idle", "Rifle Aim 2", AnimationOptions =
+	["rifleaim2"] = {"weapons@heavy@rpg", "idle", "Rifle Idle", AnimationOptions =
 	{
 		EmoteLoop = true,
 		EmoteMoving = true,
@@ -3003,7 +3003,7 @@ DP.Emotes = {
 		EmoteLoop = true,
 		EmoteMoving = true,
 	}},
-	["rifleaim3"] = {"weapons@first_person@aim_idle@generic@heavy@grenade_launcher@", "aim_med_loop", "Rifle Aim 3", AnimationOptions =
+	["rifleaim3"] = {"weapons@first_person@aim_idle@generic@heavy@grenade_launcher@", "aim_med_loop", "Rifle High Ready", AnimationOptions =
 	{
 		EmoteLoop = true,
 		EmoteMoving = true,
@@ -3054,12 +3054,12 @@ DP.Emotes = {
 		EmoteLoop = true,
 		EmoteMoving = true,
 	}},
-	["rifleaim4"] = {"weapon@rifle@riflecrouch", "idle", "Rifle Aim 4", AnimationOptions =
+	["rifleaim4"] = {"weapon@rifle@riflecrouch", "idle", "Rifle High Ready 2", AnimationOptions =
 	{
 		EmoteLoop = true,
 		EmoteMoving = true,
 	}},
-	["checkrifle"] = {"special_ped@cletus@idle_a", "cletus_idle_a", "Check Rifle", AnimationOptions =
+	["riflecheck"] = {"special_ped@cletus@idle_a", "cletus_idle_a", "Check Rifle", AnimationOptions =
 	{
 		EmoteLoop = true,
 	}},
@@ -3087,16 +3087,16 @@ DP.Emotes = {
 	{
 		EmoteLoop = true,
 	}},
-	["rifleaim5"] = {"mp_prison_break", "guard_idle", "Rifle Aim 5", AnimationOptions =
+	["rifleaim5"] = {"mp_prison_break", "guard_idle", "Inspect Rifle", AnimationOptions =
 	{
 		EmoteLoop = true,
 		EmoteMoving = true,
 	}},
-	["rifleaim6"] = {"missbigscore1guard_wait_rifle", "wait_a", "Rifle Aim 6", AnimationOptions =
+	["rifleaim6"] = {"missbigscore1guard_wait_rifle", "wait_a", "Rifle Idle 2", AnimationOptions =
 	{
 		EmoteLoop = true,
 	}},
-	["rifleaim7"] = {"hs4_nimb_lsa_isd-10", "g_m_m_cartelguards_01^6_dual-10", "Rifle Aim 7", AnimationOptions =
+	["rifleaim7"] = {"hs4_nimb_lsa_isd-10", "g_m_m_cartelguards_01^6_dual-10", "Rifle Idle 3", AnimationOptions =
 	{
 		EmoteLoop = true,
 		EmoteMoving = true,
@@ -3113,16 +3113,12 @@ DP.Emotes = {
 	{
 		EmoteLoop = true,
 	}},
-	["rifleaim8"] = {"anim@shooter_stance", "stance_clip", "Rifle Aim 8", AnimationOptions =
-	{
-		EmoteLoop = true,
-	}},
 	["gunaim4"] = {"anim@stance_handgun", "handgun_clip", "Gun Aim 4", AnimationOptions =
 	{
 		EmoteLoop = true,
 		EmoteMoving = true,
 	}},
-	["rifleaim9"] = {"anim@fog_rifle_relaxed", "rifle_relaxed_clip", "Rifle Aim 9", AnimationOptions =
+	["rifleaim9"] = {"anim@fog_rifle_relaxed", "rifle_relaxed_clip", "Rifle Idle Relaxed", AnimationOptions =
 	{
 		EmoteLoop = true,
 		EmoteMoving = true,
@@ -3142,18 +3138,15 @@ DP.Emotes = {
 		EmoteLoop = true,
 		EmoteMoving = true,
 	}},
-	["riflelean"] = {"anim@highlow_low_lean", "low_lean_clip", "Rifle Lean Low", AnimationOptions =
-	{
-		EmoteLoop = true,
-	}},
-	["riflelean2"] = {"anim@highlow_high_lean", "high_lean_clip", "Rifle Lean High", AnimationOptions =
-	{
-		EmoteLoop = true,
-	}},
     ["dab"] = {"dab@dictionary", "dabmotion", "Dab", AnimationOptions =
     {
        EmoteMoving = true,
        EmoteLoop = false,
+    }},
+    ["rifleaim14"] = {"anim@male_tactical_highready_relaxed", "highready_relaxed_clip", "Rifle High Ready Relaxed", AnimationOptions =
+    {
+        EmoteLoop = true,
+        EmoteMoving = true,
     }},
 
 }
@@ -4868,6 +4861,46 @@ DP.PropEmotes = {
         PropPlacement = {0.12, 0.04, 0.00, -115.0, 1.9, 0.0},
         EmoteLoop = true,
         EmoteMoving = true,
+    }},
+}
+
+DP.Poses = { 
+	["rifleaim8"] = {"anim@shooter_stance", "stance_clip", "Rifle Aim", AnimationOptions =
+	{
+		EmoteLoop = true,
+	}},
+	["riflelean"] = {"anim@highlow_low_lean", "low_lean_clip", "Rifle Lean Low", AnimationOptions =
+	{
+		EmoteLoop = true,
+	}},
+	["riflelean2"] = {"anim@highlow_high_lean", "high_lean_clip", "Rifle Lean High", AnimationOptions =
+	{
+		EmoteLoop = true,
+	}},
+    ["riflelean4"] = {"anim@tactical_highlow_high_leftlean", "high_leftlean_clip", "Rifle Lean Left High", AnimationOptions =
+    {
+        EmoteLoop = false,
+        EmoteMoving = false,
+    }},
+    ["riflelean3"] = {"anim@tactical_highlow_low_leftlean", "low_leftlean_clip", "Rifle Lean Left Low", AnimationOptions =
+    {
+        EmoteLoop = true,
+        EmoteMoving = false,
+    }},
+    ["rifleaim11"] = {"anim@tactical_kneel_walkie", "kneel_walkie_clip", "Rifle Kneeling Communications Idle", AnimationOptions =
+    {
+        EmoteLoop = true,
+        EmoteMoving = false,
+    }},
+    ["rifleaim12"] = {"anim@tactical_kneel_aiming", "kneel_aiming_clip", "Rifle Aim Kneeling", AnimationOptions =
+    {
+        EmoteLoop = true,
+        EmoteMoving = false,
+    }},
+    ["rifleaim13"] = {"anim@male_tactical_collapsed_lowready", "collapsed_lowready_clip", "Rifle Idle 3", AnimationOptions =
+    {
+        EmoteLoop = true,
+        EmoteMoving = false,
     }},
 }
 
