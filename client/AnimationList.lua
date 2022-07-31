@@ -130,6 +130,22 @@ DP.Walks = {
     -- ["Power Walk"] = {"move_m@powerwalk" }, -- breaks menu
     -- ["Tired"] = {"move_m@tired" }, -- breaks menu
     -- -- ["Wading"] = {"move_m@wading"},-- breaks menu
+
+    ["Toolbeltmale"] = { "move_m@tool_belt@a", "Tool Belt Male" },
+    ["Toolbeltfemale"] = { "move_f@tool_belt@a", "Tool Belt Female" },
+    ["Handbag"] = { "move_characters@amanda@bag", "Handbag" },
+    ["Firemichael"] = { "move_characters@michael@fire", "Fire - Michael" },
+    ["Firefranklin"] = { "move_characters@franklin@fire", "Fire - Franklin" },
+    ["Brave2"] = { "move_m@brave@a", "Brave 2" },
+    ["Brave3"] = { "move_m@brave@b", "Brave 3" },
+    --["Brave4"] = { "move_m@brave#fallback", "Brave 4" },
+    ["Genericfemale"] = { "move_f@generic", "Generic Female" },
+    ["Genericmale"] = { "move_m@generic", "Generic Male" },
+    ["Drunk5"] = { "move_m@drunk@moderatedrunk", "Drunk 5" },
+    ["Drunk6"] = { "move_m@drunk@moderatedrunk_head_up", "Drunk 6" },
+    ["Hobo2"] = { "move_m@hobo@b", "Hobo 2" },
+    ["Fatmale"] = { "move_m@fat@a", "Fat Male" },
+    ["Fatfemale"] = { "move_f@fat@a", "Fat Female" },
 }
 
 
