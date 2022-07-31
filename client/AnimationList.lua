@@ -4879,7 +4879,7 @@ DP.Poses = {
 	}},
     ["riflelean4"] = {"anim@tactical_highlow_high_leftlean", "high_leftlean_clip", "Rifle Lean Left High", AnimationOptions =
     {
-        EmoteLoop = false,
+		EmoteLoop = true,
         EmoteMoving = false,
     }},
     ["riflelean3"] = {"anim@tactical_highlow_low_leftlean", "low_leftlean_clip", "Rifle Lean Left Low", AnimationOptions =
