@@ -1,5 +1,4 @@
 
-	RegisterKeyMapping('e c', 'Cancel current emote', 'keyboard', '')
 Config = {
     -- Change the language of the menu here!.
     -- Note fr and de are google translated, if you would like to help out with translations, feel free to send me an 'issue' on Github.
