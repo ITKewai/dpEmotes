@@ -916,8 +916,8 @@ DP.Dances = {
             EmoteMoving = false,
         } },
     ["dancepridee"] = { "anim@amb@nightclub@lazlow@hi_railing@", "ambclub_09_mi_hi_bellydancer_laz",
-        "Dance Pride E - Transexual", AnimationOptions = {
-            Prop = 'lilprideflag6', --- Transexual
+        "Dance Pride E - Transgender", AnimationOptions = {
+            Prop = 'lilprideflag6', --- Transgender
             PropBone = 18905,
             PropPlacement = { 0.0900, 0.0000, 0.0300, -39.911, 93.9166, -5.8062 },
             SecondProp = 'lilprideflag6',
@@ -1164,9 +1164,9 @@ DP.AnimalEmotes = {
             EmoteLoop = true,
             EmoteMoving = false,
         } },
-    ["bdogpridef"] = { "creatures@rottweiler@amb@world_dog_sitting@base", "base", "Sit Pride F - Transexual (big dog)",
+    ["bdogpridef"] = { "creatures@rottweiler@amb@world_dog_sitting@base", "base", "Sit Pride F - Transgender (big dog)",
         AnimationOptions = {
-            Prop = 'lilprideflag6', --Transexual
+            Prop = 'lilprideflag6', --Transgender
             PropBone = 31086,
             PropPlacement = { 0.1900, 0.0000, -0.0500, 100.0000, 90.0000, 0.0000 },
             SecondProp = 'lilprideflag6',
@@ -1294,9 +1294,9 @@ DP.AnimalEmotes = {
             EmoteLoop = true,
             EmoteMoving = false,
         } },
-    ["sdogdancepridef"] = { "creatures@pug@move", "idle_turn_0", "Dance Pride F - Transexual (small dog)",
+    ["sdogdancepridef"] = { "creatures@pug@move", "idle_turn_0", "Dance Pride F - Transgender (small dog)",
         AnimationOptions = {
-            Prop = 'lilprideflag6', --Transexual
+            Prop = 'lilprideflag6', --Transgender
             PropBone = 31086,
             PropPlacement = { 0.1240, -0.0080, 0.000, 0.0, 0.0, -74.6999 },
             SecondProp = 'prop_cs_sol_glasses',
@@ -1595,15 +1595,15 @@ DP.AnimalEmotes = {
         EmoteLoop = true,
         EmoteMoving = false,
     } },
-    ["sdogpridef"] = { "creatures@pug@move", "nill", "Pride F - Transexual (small dog)", AnimationOptions = {
-        Prop = 'lilprideflag6', --Transexual
+    ["sdogpridef"] = { "creatures@pug@move", "nill", "Pride F - Transgender (small dog)", AnimationOptions = {
+        Prop = 'lilprideflag6', --Transgender
         PropBone = 31086,
         PropPlacement = { 0.1240, -0.0080, 0.000, 0.0, 0.0, -74.6999 },
         EmoteLoop = true,
         EmoteMoving = false,
     } },
-    ["sdogpridef"] = { "creatures@pug@move", "nill", "Pride F - Transexual (small dog)", AnimationOptions = {
-        Prop = 'lilprideflag6', --Transexual
+    ["sdogpridef"] = { "creatures@pug@move", "nill", "Pride F - Transgender (small dog)", AnimationOptions = {
+        Prop = 'lilprideflag6', --Transgender
         PropBone = 31086,
         PropPlacement = { 0.1240, -0.0080, 0.000, 0.0, 0.0, -74.6999 },
         EmoteLoop = true,
@@ -1670,9 +1670,9 @@ DP.AnimalEmotes = {
             EmoteLoop = true,
             EmoteMoving = false,
         } },
-    ["sdogpridesitf"] = { "creatures@pug@amb@world_dog_sitting@idle_a", "idle_b", "Pride F Sit Transexual  (small dog)",
+    ["sdogpridesitf"] = { "creatures@pug@amb@world_dog_sitting@idle_a", "idle_b", "Pride F Sit Transgender  (small dog)",
         AnimationOptions = {
-            Prop = 'lilprideflag6', --Transexual
+            Prop = 'lilprideflag6', --Transgender
             PropBone = 31086,
             PropPlacement = { 0.1240, -0.0080, 0.000, 0.0, 0.0, -74.6999 },
             EmoteLoop = true,
@@ -2980,12 +2980,12 @@ DP.Emotes = {
 		EmoteLoop = true,
 		EmoteMoving = true,
 	}},
-	["gunaim2"] = {"move_weapon@pistol@copa", "idle", "Gun Aim 2", AnimationOptions =
+	["gunaim2"] = {"move_weapon@pistol@copa", "idle", "Handgun Aim 2", AnimationOptions =
 	{
 		EmoteLoop = true,
 		EmoteMoving = true,
 	}},
-	["gunaim"] = {"random@arrests", "cop_gunaimed_door_open_idle", "Gun Aim", AnimationOptions =
+	["gunaim"] = {"random@arrests", "cop_gunaimed_door_open_idle", "Handgun Aim", AnimationOptions =
 	{
 		EmoteLoop = true,
 		EmoteMoving = true,
@@ -2994,12 +2994,12 @@ DP.Emotes = {
 	{
 		EmoteLoop = true,
 	}},
-	["gunaimwound"] = {"weapons@pistol@injured", "fire_med_var2", "Gun Aim Wounded", AnimationOptions =
+	["gunaimwound"] = {"weapons@pistol@injured", "fire_med_var2", "Handgun Aim Wounded", AnimationOptions =
 	{
 		EmoteLoop = true,
 		EmoteMoving = true,
 	}},
-	["gunaim3"] = {"weapons@pistol@", "wall_block", "Gun Aim 3", AnimationOptions =
+	["gunaim3"] = {"weapons@pistol@", "wall_block", "Handgun Aim 3", AnimationOptions =
 	{
 		EmoteLoop = true,
 		EmoteMoving = true,
@@ -3065,7 +3065,7 @@ DP.Emotes = {
 	{
 		EmoteLoop = true,
 	}},
-	["gunhide"] = {"fin_a_int-3", "player_one_dual-3", "Gun Hide", AnimationOptions =
+	["gunhide"] = {"fin_a_int-3", "player_one_dual-3", "Handgun Hide", AnimationOptions =
 	{
 		EmoteLoop = true,
 		EmoteMoving = true,
@@ -3129,7 +3129,7 @@ DP.Emotes = {
 	{
 		EmoteLoop = true,
 	}},
-	["gunaim4"] = {"anim@stance_handgun", "handgun_clip", "Gun Aim 4", AnimationOptions =
+	["gunaim4"] = {"anim@stance_handgun", "handgun_clip", "Handgun Aim", AnimationOptions =
 	{
 		EmoteLoop = true,
 		EmoteMoving = true,
@@ -3160,6 +3160,11 @@ DP.Emotes = {
        EmoteLoop = false,
     }},
     ["rifleaim14"] = {"anim@male_tactical_highready_relaxed", "highready_relaxed_clip", "Rifle High Ready Relaxed", AnimationOptions =
+    {
+        EmoteLoop = true,
+        EmoteMoving = true,
+    }},
+    ["gunaim5"] = {"anim@tactical_handgun_02", "t_handgun_02_clip", "Handgun High Ready", AnimationOptions =
     {
         EmoteLoop = true,
         EmoteMoving = true,
@@ -4639,7 +4644,7 @@ DP.PropEmotes = {
         EmoteLoop = true,
         EmoteMoving = true,
     } },
-    ['pflag6'] = { 'rcmnigel1d', 'base_club_shoulder', 'Pride Flag 6 - Transexual ', AnimationOptions = {
+    ['pflag6'] = { 'rcmnigel1d', 'base_club_shoulder', 'Pride Flag 6 - Transgender ', AnimationOptions = {
         Prop = 'prideflag6',
         PropBone = 18905,
         PropPlacement = { 0.0800, -0.2090, 0.0900, -82.6677, -141.2988, 12.3308 },
@@ -5032,7 +5037,46 @@ DP.Poses = {
     {
         EmoteLoop = true,
         EmoteMoving = false,
+    }},["trifle1"] = {"anim@tactical_rifle_01", "t_rifle_01_clip", "Rifle Pose 1 (Smos)", AnimationOptions =
+    {
+        EmoteLoop = true,
+        EmoteMoving = false,
     }},
+    
+    ["trifle2"] = {"anim@tactical_rifle_02", "t_rifle_02_clip", "Rifle Pose 2 (Smos)", AnimationOptions =
+    {
+        EmoteLoop = true,
+        EmoteMoving = false,
+    }},
+    
+    ["trifle3"] = {"anim@tactical_rifle_03", "t_rifle_03_clip", "Rifle Pose 3 (Smos)", AnimationOptions =
+    {
+        EmoteLoop = true,
+        EmoteMoving = false,
+    }},
+    
+    ["tphoto1"] = {"anim@tactical_photo_01", "t_photo_01_clip", "Tactical Photo Pose 1 (Smos)", AnimationOptions =
+    {
+        EmoteLoop = true,
+        EmoteMoving = false,
+    }},
+    
+    ["thg1"] = {"anim@tactical_handgun_01", "t_handgun_01_clip", "Handgun Pose 1 (Smos)", AnimationOptions =
+    {
+        EmoteLoop = true,
+        EmoteMoving = false,
+    }},
+    
+    ["thg2"] = {"anim@tactical_handgun_02", "t_handgun_02_clip", "Handgun Pose 2 (Smos)", AnimationOptions =
+    {
+        EmoteLoop = true,
+        EmoteMoving = false,
+    }},
+	["thgaim"] = {"anim@stance_handgun", "handgun_clip", "Handgun Aim", AnimationOptions =
+	{
+		EmoteLoop = true,
+		EmoteMoving = false,
+	}},
 }
 
 -- Remove emotes if needed
