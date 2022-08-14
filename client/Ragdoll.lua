@@ -10,7 +10,7 @@ Citizen.CreateThread(function()
 end)
 
 Citizen.CreateThread(function()
-    while true do
+    while Config.RagdollEnabled do
         Citizen.Wait(0)
         if IsControlJustPressed(2, Config.RagdollKeybind) and Config.RagdollEnabled and IsPedOnFoot(PlayerPedId()) then
             if isInRagdoll then
